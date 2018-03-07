@@ -1,0 +1,42 @@
+body {
+background-color: #E0FFFF ;
+font-size: 28px ;
+font-family: fantasy ;
+color: 	#F08080 ;
+}
+
+.h2class {
+  border: : 6px 	#F5DEB3 solid ;
+  margin: 4px;
+  color : #FF6347 ;
+  background-color: #F5F5F5;
+  width: auto;
+  text-align: center;
+}
+
+.Imgclass {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 20%;
+  border: 3px solid #FF6347  ;
+}
+
+.Imgclass:hover {
+transform: scale(1.1) rotate(4deg);  /*--- Hovre img ---*/
+}
+
+.h2class:hover {
+  border-bottom: 4px solid;
+  background: #F08080;
+  transition: all 0.4s;
+}
+
+
+.li1Class:hover {
+  border-bottom: 4px solid;
+  background:#F08080;
+  color: #E0FFFF;
+  transition: all 0.2s;
+}
